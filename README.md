@@ -45,7 +45,8 @@ By incorporating these layers, the model captures a spectrum of possible outcome
 
 The network's predictive performance demonstrates promising results, achieving effective segmentation with minimal false positives. The following figure presents the **Ground Truth** versus **Predictions**, showcasing the model's accuracy and robustness across a random slice from the dataset:
 
-![Results Comparison](https://github.com/your-repo-path/image5.png)
+![Results Comparison](https://raw.githubusercontent.com/NiloofarESF1996/epoch-of-reionization/refs/heads/main/Images/img_3.png)
+![Results Comparison](https://raw.githubusercontent.com/NiloofarESF1996/epoch-of-reionization/refs/heads/main/Images/img_6.png)
 
 The output predictions closely match the ground truth labels, verifying the efficacy of the Bayesian layers in mitigating uncertainties in cosmological datasets.
 
