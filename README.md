@@ -20,7 +20,7 @@ The dataset preparation pipeline involves:
 
 The following flowchart provides an overview of this preprocessing sequence:
 
-![Data Workflow](https://github.com/your-repo-path/image2.png)
+![Data Workflow](https://raw.githubusercontent.com/NiloofarESF1996/epoch-of-reionization/refs/heads/main/Images/img.png)
 
 This workflow efficiently processes high-dimensional data to generate both density and halo maps, crucial for training the BCNN to distinguish between regions of high and low mass concentrations.
 
