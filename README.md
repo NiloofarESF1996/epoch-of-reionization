@@ -28,7 +28,7 @@ This workflow efficiently processes high-dimensional data to generate both densi
 
 The input data consists of 2D halo and density contrast maps, while labels correspond to binary segmentation maps highlighting regions with high and low mass probability. Below is a sample input alongside ground truth and model-predicted outputs:
 
-![Input and Label](https://github.com/your-repo-path/image3.png)
+![Input and Label](https://raw.githubusercontent.com/NiloofarESF1996/epoch-of-reionization/refs/heads/main/Images/img_2.png)
 
 These input-label pairs provide a comprehensive training set that enables the network to generalise well on unseen regions of the simulation data, supporting accurate predictions in high-dimensional galactic datasets.
 
@@ -36,7 +36,8 @@ These input-label pairs provide a comprehensive training set that enables the ne
 
 To address uncertainties in predictions, our BCNN integrates **Bayesian Sampling Layers**. These layers provide an interpretable framework to estimate the probability of high-mass regions, enhancing the reliability of segmentation outcomes. Below is an illustrative breakdown of the Bayesian Sampling mechanism within the network:
 
-![Bayesian Sampling Layer](https://github.com/your-repo-path/image4.png)
+![Bayesian Sampling Layer](https://raw.githubusercontent.com/NiloofarESF1996/epoch-of-reionization/refs/heads/main/Images/img_4.png)
+![Bayesian Sampling Layer](https://raw.githubusercontent.com/NiloofarESF1996/epoch-of-reionization/refs/heads/main/Images/img_5.png)
 
 By incorporating these layers, the model captures a spectrum of possible outcomes, giving users confidence intervals for the segmented mass regions—ideal for scientific applications where precision and confidence are paramount.
 
