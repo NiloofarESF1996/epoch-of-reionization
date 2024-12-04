@@ -50,8 +50,13 @@ The network's predictive performance demonstrates promising results, achieving e
 
 The output predictions closely match the ground truth labels, verifying the efficacy of the Bayesian layers in mitigating uncertainties in cosmological datasets.
 
-## Installation and Usage
-
+## How to use the software
+You can clone the repository and run the code using Jupyter Lab Or use the link below to run the software through Google Colab
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your-repo-path/galactic-halo-segmentation.git
+   ```
+2. **Google Colab**
+   ```Link
+   https://colab.research.google.com/drive/17HE5zDNOQRqBhy6MkaW_v9uL_43tPv-Y?usp=sharing
+   ```
